@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dharshini Portfolio - Projects & Certificates</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* Projects list animation */
+.projects ul li {
+    margin-bottom: 10px;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+}
+.projects ul li:hover {
+    transform: scale(1.02);
+    color: #ff6600;
+}
+
+/* Certificates animation */
+.certificates ul li a {
+    transition: transform 0.3s, color 0.3s;
+}
+.certificates ul li a:hover {
+    transform: scale(1.05);
+    color: #0066ff;
+}
+
+/* Skills box format with logos */
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.skill-item {
+    background: #ffeb99; /* light yellow rectangle */
+    border-radius: 15px; /* slightly rounded rectangle */
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, background 0.3s;
+    cursor: default;
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+.skill-item p {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+    background: gold;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Projects, Certificates & Skills</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects & Certificates</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><b>Asset Management:</b> Tracks assets and generates reports in real-time.</li>
+            <li><b>Job Aid:</b> Recommends jobs based on uploaded resumes and skills.</li>
+            <li><b>E-Commerce Platform:</b> Secure payment, product search, order tracking.</li>
+            <li><b>Portfolio Website:</b> Responsive design to showcase projects.</li>
+            <li><b>Task Manager:</b> Create, edit, and manage tasks with reminders.</li>
+            <li><b>Email spam Detection:</b> AI model for spam & phishing detection.</li>
+        </ul>
+    </section>
+
+    <section class="certificates">
+    <h2>Certification Courses</h2>
+    <div class="certificates-container">
+
+        <div class="certificate-card">
+            <h3>Programming with Python 3.X</h3>
+            <a href="./Simplilearn_c1.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Introduction to Data Analytics</h3>
+            <a href="./Simplilearn_c2.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Statistical Learning for Reliability Analysis</h3>
+            <a href="./23ad012-_Statistical_learning_.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Ethical Hacking</h3>
+            <a href="./D-EH.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Data Analytics with Python</h3>
+            <a href="./Data_Analytics_with_Python.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>Operating System</h3>
+            <a href="./CE_certificate_D.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-box">
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/c-programming.png" alt="C">
+                <p>C</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/java-coffee-cup-logo.png" alt="Java">
+                <p>Java</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/css3.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/sql.png" alt="SQL">
+                <p>SQL</p>
+            </div>
+            <div class="skill-item">
+                <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="AI & ML">
+                <p>AI & ML</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Dharshini. Built with passion and dedication.</p>
+    <p>Email: dharshini@example.com | Phone: +91 9876543210</p>
+</footer>
+
+</body>
+</html>
